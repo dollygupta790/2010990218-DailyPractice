@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body{
+            background-image:linear-gradient(to right,rgb(166,168,227),rgb(244,188,177));
+            color:rgb(103,6,29);
+        }
+        h1{
+            text-align: center;
+            font-size: 50px;
+
+        }
+        #content{
+            font-size: large;
+            color:black;
+        }
+        .pic{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+           width: 30%;
+        }
+        #content{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p><h1><b>Contact Us </b></h1></p><br>
+    <img src="contact.png" alt="Image not found"class="pic">
+    <section id="content">
+        <form action ="About.html" method="post"><b>
+            Enter your name : 
+            <input type="text" name="personName" 
+            id="personName" placeholder="Enter the Name" ><br>
+            Enter your mail id:
+            <input type="email"
+            name="myemail"
+            id="myemail"
+            placeholder="Enter the email"/>
+            <br>
+            <p>Select the gender</p>
+            <input type="radio" name="gender" id="male">
+            Male
+            <input type="radio" name="gender" id="female">
+            Female
+            <br>
+            <p>Select the course</p>
+            <input type="checkbox" name="Java" id="Java">
+            Java
+            <input type="checkbox" name="C++" id="C++">
+            C++
+            <input type="checkbox" name="Python" id="Python">
+            Python
+            <br>
+            <input type="submit" value="Submit"/>
+        </b>
+        </form>
+    </section>
+
+</body>
+</html>
