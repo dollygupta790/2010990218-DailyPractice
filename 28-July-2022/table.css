@@ -1,0 +1,7 @@
+tr #th1heading{
+    background-color: bisque;
+    color:tomato;
+}
+table th,{
+    border: 1px solid red;
+}
