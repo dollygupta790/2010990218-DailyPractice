@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-const name="Dolly";
-const x=false;
-
+// const name="Dolly";
+// const x=false;
+import Header from "./components/Header";
   
 function App() {
   return (
@@ -22,14 +22,19 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <div className="App">
-     {/* <h1>H1 Heading</h1> */}
-     <h1>{name}</h1>
-     <h2>{55 +6}</h2>
-      <h1>Hello from React</h1>
-      <h2>{x ?'Yes':'No'}</h2>
-      <h2>Hello H2</h2>
+    // <div className="App">
+    //  {/* <h1>H1 Heading</h1> */}
+    //  <h1>{name}</h1>
+    //  <h2>{55 +6}</h2>
+    //   <h1>Hello from React</h1>
+    //   <h2>{x ?'Yes':'No'}</h2>
+    //   <h2>Hello H2</h2>
       
+    // </div>
+    <div className="container">
+      <Header/>
+
+
     </div>
   );
 }
