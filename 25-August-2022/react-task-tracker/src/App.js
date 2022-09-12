@@ -32,7 +32,7 @@ function App() {
       
     // </div>
     <div className="container">
-      <Header/>
+      <Header title={"Dolly"}></Header>
 
 
     </div>
