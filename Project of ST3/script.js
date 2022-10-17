@@ -2,7 +2,7 @@ function earth(){
     var weight = document.getElementById("name").value;
     var earth = document.getElementById("name").value;
     var earth = weight * 1;
-    document.getElementById("uc").innerHTML = "Your weight On Jupiter is: " + earth+" Kg";
+    document.getElementById("uc").innerHTML = "Your weight On Earth is: " + earth+" Kg";
     let user=document.querySelector('#uc');
     user.classList.toggle("hide");
 }
