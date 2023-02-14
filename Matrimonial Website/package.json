@@ -8,14 +8,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Dolly",
+  "author": "bhuvanyu",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.3",
     "express": "^4.18.2",
+    "hb": "^0.0.0",
     "hbs": "^4.2.0",
     "jquery": "^3.6.3",
     "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20",
     "validator": "^13.9.0"
   }
 }
